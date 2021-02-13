@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="321.0" maxWidth="481.0" minHeight="321.0" minWidth="481.0" prefHeight="321.0" prefWidth="481.0" stylesheets="@picker.css" xmlns="http://javafx.com/javafx/8.0.241" xmlns:fx="http://javafx.com/fxml/1">
+   <Button id="selectMain" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="345.0" text="Начать" textAlignment="CENTER">
+      <font>
+         <Font size="49.0" />
+      </font></Button>
+   <TextField id="descr1" layoutX="14.0" layoutY="181.0" prefHeight="31.0" prefWidth="139.0" promptText="ЭТАЖ" />
+   <TextField id="descr2" layoutX="14.0" layoutY="212.0" prefHeight="31.0" prefWidth="139.0" promptText="ПЛОЩАДЬ" />
+   <TextField id="descr3" layoutX="14.0" layoutY="243.0" prefHeight="31.0" prefWidth="139.0" promptText="3 строка" />
+   <TextField id="descr4" layoutX="14.0" layoutY="274.0" prefHeight="31.0" prefWidth="139.0" promptText="СТОИМОСТЬ" />
+   <TextArea id="nameText" layoutX="366.0" layoutY="14.0" prefHeight="46.0" prefWidth="101.0" promptText="имя объекта" wrapText="true" />
+   <Text fill="#828282" layoutX="159.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПРИМЕР: 8" wrappingWidth="112.0" />
+   <Text fill="#828282" layoutX="159.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПРИМЕР: 53" wrappingWidth="167.67090193927288" />
+   <Text fill="#828282" layoutX="159.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПРИМЕР: СПАЛЕН 2" wrappingWidth="167.6708984375" />
+   <Text fill="#828282" layoutX="159.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПРИМЕР: 1 000 000 РУБ." wrappingWidth="201.67090193927288" />
+</Pane>

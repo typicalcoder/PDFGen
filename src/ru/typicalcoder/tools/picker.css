@@ -1,0 +1,11 @@
+#selectMain {
+    -fx-background-color: #bee2b4;
+    -fx-border-radius: 0;
+}
+
+#selectMain:hover {
+    -fx-background-color: #a2e295;
+}
+#selectMain:armed {
+    -fx-background-color: #68e25a;
+}
